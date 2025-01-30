@@ -1,0 +1,60 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.4.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "6372e0c"
+  },
+  "schemaVersion": 14,
+  "id": "Form_7bjpeg8",
+  "components": [
+    {
+      "label": "Message recu",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1kiw53f",
+        "columns": null
+      },
+      "id": "Field_0xpieou",
+      "key": "messageToDisplay",
+      "disabled": true
+    },
+    {
+      "label": "Reponse",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1jvynju",
+        "columns": null
+      },
+      "id": "Field_1g08w3z",
+      "key": "textfield_s22iy3"
+    },
+    {
+      "label": "anonyme",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0l569jx",
+        "columns": null
+      },
+      "id": "Field_1clg2lp",
+      "key": "anonyme"
+    },
+    {
+      "label": "Prenom",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_02o1g7m",
+        "columns": null
+      },
+      "id": "Field_0aetjrh",
+      "key": "firstName",
+      "conditional": {
+        "hide": "=anonyme = true"
+      },
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

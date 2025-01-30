@@ -1,0 +1,33 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.4.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "2d21633"
+  },
+  "schemaVersion": 14,
+  "id": "Form_1eghtu6",
+  "components": [
+    {
+      "label": "Message a afficher",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1kiw53f",
+        "columns": null
+      },
+      "id": "Field_0xpieou",
+      "key": "messageToDisplay"
+    },
+    {
+      "label": "Prenom",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_02o1g7m",
+        "columns": null
+      },
+      "id": "Field_0aetjrh",
+      "key": "firstName"
+    }
+  ],
+  "type": "default"
+}
